@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    overflow-x: hidden;
+}
+.canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.title{
+    color: rgb(255, 255, 255);
+    font-family: 'Ysabeau SC', sans-serif;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 22%;
+    font-size: 5rem;
+    transform: translate(-50% , -75%);
+}
+.menubar{
+    position: absolute;
+    z-index: 2;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0.5rem;
+    right: 1%;
+}
+
+@media only screen and (max-width : 420px){
+    .title{
+        font-size: 1.43rem;
+    }
+}
